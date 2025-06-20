@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_efficiency_1"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_efficiency_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:book",
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_efficiency_1"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_efficiency_1",
+      "has_the_recipe"
+    ]
+  ]
+}

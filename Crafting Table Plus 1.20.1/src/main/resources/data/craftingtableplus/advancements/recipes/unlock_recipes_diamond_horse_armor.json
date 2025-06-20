@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_diamond_horse_armor"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_diamond_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_diamond_horse_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_diamond_horse_armor",
+      "has_the_recipe"
+    ]
+  ]
+}

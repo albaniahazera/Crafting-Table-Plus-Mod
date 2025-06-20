@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_obsidian"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lava_bucket",
+              "minecraft:water_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_obsidian"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_obsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

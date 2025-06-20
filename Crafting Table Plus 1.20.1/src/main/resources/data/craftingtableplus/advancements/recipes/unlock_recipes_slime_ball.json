@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_slime_ball"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_slime_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb",
+              "minecraft:green_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_slime_ball"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_slime_ball",
+      "has_the_recipe"
+    ]
+  ]
+}
