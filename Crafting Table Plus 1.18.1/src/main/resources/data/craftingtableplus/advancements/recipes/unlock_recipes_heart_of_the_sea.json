@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_heart_of_the_sea"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prismarine_shard",
+              "minecraft:prismarine_crystals",
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_heart_of_the_sea"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_heart_of_the_sea",
+      "has_the_recipe"
+    ]
+  ]
+}

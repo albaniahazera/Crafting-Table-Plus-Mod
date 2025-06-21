@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_saddle"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:string",
+              "minecraft:tripwire_hook",
+              "minecraft:leather"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_saddle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_saddle",
+      "has_the_recipe"
+    ]
+  ]
+}

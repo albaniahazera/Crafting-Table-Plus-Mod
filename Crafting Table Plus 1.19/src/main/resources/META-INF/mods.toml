@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="GNU General Public License, Version 3 (GPLv3)"
+[[mods]]
+modId="craftingtableplus"
+version="1.19-1.0"
+displayName="Crafting Table Plus"
+displayURL="https://allmods.alhazera25.my.id/mods/crafting-table-plus"
+logoFile="ctp.png"
+#credits="Thanks for this example mod goes to Java"
+authors="Albania Hazera"
+description='''
+Thanks for download and using our mod
+'''
+
+[[dependencies.craftingtableplus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.craftingtableplus]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"

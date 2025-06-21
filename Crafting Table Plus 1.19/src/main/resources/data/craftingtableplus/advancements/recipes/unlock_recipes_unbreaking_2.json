@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_unbreaking_2"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_unbreaking_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget",
+              "minecraft:iron_ingot",
+              "minecraft:iron_block",
+              "minecraft:lapis_lazuli",
+              "minecraft:book"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_unbreaking_2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_unbreaking_book",
+      "has_the_recipe"
+    ]
+  ]
+}

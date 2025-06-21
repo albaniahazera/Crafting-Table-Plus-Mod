@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DB ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "minecraft:clay",
+    "count": 1
+  }
+}

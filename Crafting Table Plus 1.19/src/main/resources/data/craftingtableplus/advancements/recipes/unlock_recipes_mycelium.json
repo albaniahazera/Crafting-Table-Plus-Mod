@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_mycelium"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_mycelium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block",
+              "minecraft:brown_mushroom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_mycelium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_mycelium",
+      "has_the_recipe"
+    ]
+  ]
+}

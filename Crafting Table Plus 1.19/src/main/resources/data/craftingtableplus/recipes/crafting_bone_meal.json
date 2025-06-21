@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RWP",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "P": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 2
+  }
+}

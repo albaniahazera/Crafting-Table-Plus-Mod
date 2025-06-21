@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_soul_sand"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sand",
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_soul_sand"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_soul_sand",
+      "has_the_recipe"
+    ]
+  ]
+}
