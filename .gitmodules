@@ -1,3 +1,6 @@
 [submodule "Crafting Table Plus 1.16.5"]
 	path = Crafting Table Plus 1.16.5
 	url = https://github.com/albaniahazera/Crafting-Table-Plus-1.16.5-Forge.git
+[submodule "Crafting Table Plus 1.17.1"]
+	path = Crafting Table Plus 1.17.1
+	url = https://github.com/albaniahazera/Crafting-Table-Plus-1.17.1-Forge.git
