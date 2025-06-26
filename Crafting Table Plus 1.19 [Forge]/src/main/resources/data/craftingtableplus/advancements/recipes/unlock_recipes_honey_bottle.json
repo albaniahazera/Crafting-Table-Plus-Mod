@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_honey_bottle"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_honey_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb",
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_honey_bottle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_honey_bottle",
+      "has_the_recipe"
+    ]
+  ]
+}

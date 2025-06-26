@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_cave_spider_spawn_egg"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_cave_spider_spawn_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:egg",
+              "minecraft:cobweb",
+              "minecraft:spider_eye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_cave_spider_spawn_egg"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_cave_spider_spawn_egg",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_elytra"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:phantom_membrane",
+              "minecraft:lead",
+              "minecraft:slime_ball"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+          "craftingtableplus:crafting_elytra"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_elytra",
+      "has_the_recipe"
+    ]
+  ]
+}

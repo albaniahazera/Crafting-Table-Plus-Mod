@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "d d",
+    " b ",
+    "d d"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:fortune",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

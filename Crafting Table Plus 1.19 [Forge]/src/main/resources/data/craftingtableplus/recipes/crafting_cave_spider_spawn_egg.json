@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "sCs",
+    "EEE"
+  ],
+  "key" : {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "C": {
+      "item": "minecraft:cobweb"
+    },
+    "s": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:cave_spider_spawn_egg",
+    "count": 1
+  }
+}

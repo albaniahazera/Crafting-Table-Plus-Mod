@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ASA",
+    "SLS",
+    " S "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

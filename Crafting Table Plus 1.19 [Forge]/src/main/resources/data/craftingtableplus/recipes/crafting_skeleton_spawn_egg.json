@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "bBb",
+    "EEE"
+  ],
+  "key" : {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:skeleton_spawn_egg",
+    "count": 1
+  }
+}

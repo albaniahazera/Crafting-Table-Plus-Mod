@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_end_rod"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_end_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_eye",
+              "minecraft:blaze_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_end_rod"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_end_rod",
+      "has_the_recipe"
+    ]
+  ]
+}

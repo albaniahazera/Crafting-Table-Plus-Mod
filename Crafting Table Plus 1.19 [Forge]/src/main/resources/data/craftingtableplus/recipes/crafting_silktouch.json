@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "lbl",
+    "www"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:book"
+    },
+    "w": {
+      "item": "minecraft:blue_wool"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "minecraft:silk_touch",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

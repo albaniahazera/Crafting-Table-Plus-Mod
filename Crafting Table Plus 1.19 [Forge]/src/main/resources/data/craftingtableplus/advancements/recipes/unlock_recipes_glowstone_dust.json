@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_glowstone_dust"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar",
+              "minecraft:redstone",
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_glowstone_dust"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_glowstone_dust",
+      "has_the_recipe"
+    ]
+  ]
+}

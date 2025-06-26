@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_mending"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_mending": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:book",
+              "minecraft:iron_ingot",
+              "minecraft:emerald",
+              "minecraft:lapis_lazuli",
+              "minecraft:gold_ingot",
+              "minecraft:diamond",
+              "minecraft:experience_bottle"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_mending"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_mending",
+      "has_the_recipe"
+    ]
+  ]
+}

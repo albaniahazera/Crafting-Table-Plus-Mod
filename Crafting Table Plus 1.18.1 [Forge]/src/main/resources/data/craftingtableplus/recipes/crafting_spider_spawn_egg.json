@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "sSs",
+    "EEE"
+  ],
+  "key" : {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:spider_spawn_egg",
+    "count": 1
+  }
+}

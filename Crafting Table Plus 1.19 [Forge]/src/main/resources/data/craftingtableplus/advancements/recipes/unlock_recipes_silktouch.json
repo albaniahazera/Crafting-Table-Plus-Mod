@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_silktouch"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_silktouch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:book",
+              "minecraft:blue_wool",
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_silktouch"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_silktouch",
+      "has_the_recipe"
+    ]
+  ]
+}

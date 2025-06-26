@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_trident"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_trident": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:prismarine_shard"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_trident"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_trident",
+      "has_the_recipe"
+    ]
+  ]
+}

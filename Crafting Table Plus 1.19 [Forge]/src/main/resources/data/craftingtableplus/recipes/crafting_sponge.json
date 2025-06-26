@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "YHY",
+    "YYY"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "H": {
+      "item": "minecraft:horn_coral"
+    }
+  },
+  "result": {
+    "item": "minecraft:sponge",
+    "count": 1
+  }
+}
