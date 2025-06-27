@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_bone_meal"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh",
+              "minecraft:water_bucket",
+              "minecraft:poisonous_potato"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_bone_meal"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_bone_meal",
+      "has_the_recipe"
+    ]
+  ]
+}
+

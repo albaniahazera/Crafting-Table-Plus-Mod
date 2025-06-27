@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "craftingtableplus",
+	"version": "${version}",
+	"name": "Crafting Table Plus",
+	"description": "This mod allows you to craft various items from crafting tables that are not supported by Minecraft Vanilla.",
+	"authors": [
+		"Albania Hazera"
+	],
+	"contact": {
+		"homepage": "https://allmods.alhazera25.my.id/mods/crafting-table-plus",
+		"sources": "https://github.com/albaniahazera/Crafting-Table-Plus-Mod"
+	},
+	"license": "GNU General Public License, Version 3 (GPLv3)",
+	"icon": "assets/craftingtableplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alhazera25.craftingtableplus.CraftingTablePlus"
+		],
+		"client": [
+			"com.alhazera25.craftingtableplus.CraftingTablePlusClient"
+		],
+		"fabric-datagen": [
+			"com.alhazera25.craftingtableplus.CraftingTablePlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"craftingtableplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

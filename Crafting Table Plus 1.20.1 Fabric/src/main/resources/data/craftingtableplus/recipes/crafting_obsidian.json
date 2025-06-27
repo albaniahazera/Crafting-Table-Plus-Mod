@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LW ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:obsidian",
+    "count": 1
+  }
+}

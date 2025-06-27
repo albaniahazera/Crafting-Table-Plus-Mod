@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_clay"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt",
+              "minecraft:bone_meal"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_clay"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_clay",
+      "has_the_recipe"
+    ]
+  ]
+}

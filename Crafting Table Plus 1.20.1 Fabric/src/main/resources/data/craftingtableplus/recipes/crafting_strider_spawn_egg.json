@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "SMS",
+    "EEE"
+  ],
+  "key" : {
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "item": "minecraft:strider_spawn_egg",
+    "count": 1
+  }
+}
