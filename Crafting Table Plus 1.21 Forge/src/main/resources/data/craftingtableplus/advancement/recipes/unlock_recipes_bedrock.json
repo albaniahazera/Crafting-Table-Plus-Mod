@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_bedrock"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_bedrock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block",
+              "minecraft:iron_block",
+              "minecraft:stone",
+              "minecraft:diamond_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_bedrock"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_bedrock",
+      "has_the_recipe"
+    ]
+  ]
+}

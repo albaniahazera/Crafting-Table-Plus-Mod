@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "GRG",
+    "BGB"
+  ],
+  "key" : {
+    "B": {
+      "item": "minecraft:bedrock"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1
+  }
+}

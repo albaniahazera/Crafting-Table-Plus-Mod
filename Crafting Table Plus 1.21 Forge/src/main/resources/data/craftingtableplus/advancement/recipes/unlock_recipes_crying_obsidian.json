@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_crying_obsidian"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:obsidian",
+              "minecraft:ghast_tear"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_crying_obsidian"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_crying_obsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

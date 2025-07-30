@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_warped_nylium"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherrack",
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_warped_nylium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_warped_nylium",
+      "has_the_recipe"
+    ]
+  ]
+}

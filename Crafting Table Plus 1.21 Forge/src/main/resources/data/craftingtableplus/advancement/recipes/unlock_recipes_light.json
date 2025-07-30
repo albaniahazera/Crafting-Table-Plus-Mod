@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_light"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_light": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrier",
+              "minecraft:redstone_block",
+              "minecraft:redstone_lamp"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_light"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_light",
+      "has_the_recipe"
+    ]
+  ]
+}

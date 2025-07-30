@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLB",
+    "BRB",
+    "BBB"
+  ],
+  "key" : {
+    "B": {
+      "item": "minecraft:barrier"
+    },
+    "L": {
+      "item": "minecraft:redstone_block"
+    },
+    "R": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "id": "minecraft:light",
+    "count": 1
+  }
+}

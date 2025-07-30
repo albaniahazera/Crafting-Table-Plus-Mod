@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_podzol"
+    ]
+  },
+  "criteria": {
+    "has_item_for_craft_podzol": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grass_block",
+              "minecraft:dead_bush",
+              "minecraft:rotten_flesh"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftingtableplus:crafting_podzol"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_craft_podzol",
+      "has_the_recipe"
+    ]
+  ]
+}

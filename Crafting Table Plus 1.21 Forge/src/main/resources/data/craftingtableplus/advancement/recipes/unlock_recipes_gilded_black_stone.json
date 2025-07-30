@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_gilded_black_stone"
+    ]
+  },
+  "criteria": {
+    "has_item_for_crafting_gilded_black_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blackstone",
+              "minecraft:gold_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe":
+        "craftingtableplus:crafting_gilded_black_stone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item_for_crafting_gilded_black_stone",
+      "has_the_recipe"
+    ]
+  ]
+}
