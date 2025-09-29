@@ -14,14 +14,13 @@
     }
   },
   "result": {
-    "item": "minecraft:enchanted_book",
-    "nbt": {
-      "StoredEnchantments": [
-        {
-          "id": "minecraft:efficiency",
-          "lvl": 1
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:efficiency": 1
         }
-      ]
+      }
     }
   }
 }
