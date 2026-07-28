@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:egg",
+    "S": "minecraft:sculk_catalyst"
+  },
+  "pattern": [
+    "EEE",
+    "SSS",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:warden_spawn_egg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:egg",
+    "P": "minecraft:blaze_powder",
+    "R": "minecraft:blaze_rod"
+  },
+  "pattern": [
+    "EEE",
+    "RPR",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:blaze_spawn_egg"
+  }
+}

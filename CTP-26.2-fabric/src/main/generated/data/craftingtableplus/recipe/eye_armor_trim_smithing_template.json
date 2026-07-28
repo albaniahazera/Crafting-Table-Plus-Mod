@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "minecraft:end_stone",
+    "N": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "pattern": [
+    "EDE",
+    "DND",
+    "EDE"
+  ],
+  "result": {
+    "id": "minecraft:eye_armor_trim_smithing_template"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "minecraft:echo_shard",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "S": "minecraft:cobbled_deepslate"
+  },
+  "pattern": [
+    "SDE",
+    "SNS",
+    "EDS"
+  ],
+  "result": {
+    "id": "minecraft:silence_armor_trim_smithing_template"
+  }
+}

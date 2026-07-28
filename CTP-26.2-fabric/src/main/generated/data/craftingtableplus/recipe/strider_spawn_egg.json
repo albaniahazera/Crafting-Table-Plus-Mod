@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "minecraft:magma_cream",
+    "E": "minecraft:egg",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "EEE",
+    "SCS",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:strider_spawn_egg"
+  }
+}

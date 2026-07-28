@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "minecraft:enchanted_golden_apple",
+    "L": "minecraft:lapis_lazuli",
+    "S": "minecraft:soul_sand"
+  },
+  "pattern": [
+    "ESE",
+    "SLS",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

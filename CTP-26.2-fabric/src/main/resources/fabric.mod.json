@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "craftingtableplus",
+	"version": "${version}",
+	"name": "Crafting Table Plus",
+	"description": "Thanks for using our mod",
+	"authors": [
+		"Albania Hazera"
+	],
+	"contact": {
+		"homepage": "https://allmods.alhazera25.my.id/mods/crafting-table-plus/",
+		"issues": "https://github.com/albaniahazera/Crafting-Table-Plus-Mod/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/craftingtableplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alhazera25.craftingtableplus.CraftingTablePlus"
+		],
+		"fabric-datagen": [
+			"com.alhazera25.craftingtableplus.CraftingTablePlusDataGenerator"
+		],
+		"client": [
+			"com.alhazera25.craftingtableplus.client.CraftingTablePlusClient"
+		]
+	},
+	"mixins": [
+		"craftingtableplus.mixins.json",
+		{
+			"config": "craftingtableplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

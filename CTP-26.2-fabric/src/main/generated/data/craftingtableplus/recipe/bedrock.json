@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": "minecraft:diamond_block",
+    "I": "minecraft:iron_block",
+    "N": "minecraft:netherite_block",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "NIN",
+    "SDS",
+    "NIN"
+  ],
+  "result": {
+    "id": "minecraft:bedrock"
+  }
+}

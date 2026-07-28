@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "minecraft:dirt",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:clay"
+  }
+}

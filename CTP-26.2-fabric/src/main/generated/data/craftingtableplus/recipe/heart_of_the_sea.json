@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "minecraft:prismarine_crystals",
+    "D": "minecraft:diamond",
+    "P": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    "PCP",
+    "CDC",
+    "PCP"
+  ],
+  "result": {
+    "id": "minecraft:heart_of_the_sea"
+  }
+}
