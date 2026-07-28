@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "DND",
+    "NIN",
+    "DND"
+  ],
+  "result": {
+    "id": "minecraft:heavy_core"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "P": "minecraft:purpur_block"
+  },
+  "pattern": [
+    "DPD",
+    "PNP",
+    "DPD"
+  ],
+  "result": {
+    "id": "minecraft:spire_armor_trim_smithing_template"
+  }
+}

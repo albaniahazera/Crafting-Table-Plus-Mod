@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gilded": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gilded_blackstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gold_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gilded"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gold_ingot"
+    ]
+  }
+}

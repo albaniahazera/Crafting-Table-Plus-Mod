@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "T": "minecraft:terracotta"
+  },
+  "pattern": [
+    "DTT",
+    "TNT",
+    "TDD"
+  ],
+  "result": {
+    "id": "minecraft:raiser_armor_trim_smithing_template"
+  }
+}

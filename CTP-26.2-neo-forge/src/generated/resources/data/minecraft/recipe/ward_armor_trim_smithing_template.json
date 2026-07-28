@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "S": "minecraft:cobbled_deepslate"
+  },
+  "pattern": [
+    "DSD",
+    "SNS",
+    "SDS"
+  ],
+  "result": {
+    "id": "minecraft:ward_armor_trim_smithing_template"
+  }
+}

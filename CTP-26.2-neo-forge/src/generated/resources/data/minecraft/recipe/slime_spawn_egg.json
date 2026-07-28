@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:egg",
+    "S": "minecraft:slime_ball"
+  },
+  "pattern": [
+    "EEE",
+    "SSS",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:slime_spawn_egg"
+  }
+}

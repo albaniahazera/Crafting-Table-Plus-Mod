@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:egg",
+    "F": "minecraft:fire_charge",
+    "G": "minecraft:ghast_tear"
+  },
+  "pattern": [
+    "EEE",
+    "GFG",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:ghast_spawn_egg"
+  }
+}

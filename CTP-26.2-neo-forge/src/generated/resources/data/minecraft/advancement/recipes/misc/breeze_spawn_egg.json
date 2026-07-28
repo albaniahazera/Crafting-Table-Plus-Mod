@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_breeze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:breeze_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:breeze_spawn_egg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_egg",
+      "has_breeze_rod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:breeze_spawn_egg"
+    ]
+  }
+}

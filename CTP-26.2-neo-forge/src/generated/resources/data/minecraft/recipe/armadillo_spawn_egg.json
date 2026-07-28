@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:armadillo_scute",
+    "E": "minecraft:egg"
+  },
+  "pattern": [
+    "EEE",
+    "AAA",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:armadillo_spawn_egg"
+  }
+}

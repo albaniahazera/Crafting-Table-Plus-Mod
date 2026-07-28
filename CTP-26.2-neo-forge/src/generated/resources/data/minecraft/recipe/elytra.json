@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:lead",
+    "P": "minecraft:phantom_membrane",
+    "S": "minecraft:slime_ball"
+  },
+  "pattern": [
+    "PLP",
+    "S S",
+    "P P"
+  ],
+  "result": {
+    "id": "minecraft:elytra"
+  }
+}

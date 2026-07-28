@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gravel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sulfur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sulfur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gunpowder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coal",
+      "has_sulfur",
+      "has_gravel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gunpowder"
+    ]
+  }
+}

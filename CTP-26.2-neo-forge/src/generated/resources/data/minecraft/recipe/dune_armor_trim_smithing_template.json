@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "S": "minecraft:sandstone"
+  },
+  "pattern": [
+    "DDD",
+    "SNS",
+    "DDD"
+  ],
+  "result": {
+    "id": "minecraft:dune_armor_trim_smithing_template"
+  }
+}

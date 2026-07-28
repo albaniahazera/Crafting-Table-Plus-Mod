@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "minecraft:bone",
+    "C": "minecraft:coal",
+    "E": "minecraft:egg"
+  },
+  "pattern": [
+    "EEE",
+    "BCB",
+    "EEE"
+  ],
+  "result": {
+    "id": "minecraft:wither_skeleton_spawn_egg"
+  }
+}

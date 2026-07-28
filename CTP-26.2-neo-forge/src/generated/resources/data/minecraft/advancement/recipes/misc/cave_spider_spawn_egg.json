@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobweb": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobweb"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spider_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spider_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cave_spider_spawn_egg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_egg",
+      "has_spider_eye",
+      "has_cobweb"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cave_spider_spawn_egg"
+    ]
+  }
+}

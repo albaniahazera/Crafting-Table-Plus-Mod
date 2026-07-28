@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": "minecraft:diamond",
+    "N": "minecraft:netherite_upgrade_smithing_template",
+    "S": "minecraft:mossy_cobblestone"
+  },
+  "pattern": [
+    "SDS",
+    "SNS",
+    "SSS"
+  ],
+  "result": {
+    "id": "minecraft:wild_armor_trim_smithing_template"
+  }
+}
